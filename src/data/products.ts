@@ -7,7 +7,8 @@ export interface Product {
   price: number;
   type: ProductType;
   category: string;
-  images: string[];   // first image = main photo
+  images: string[];
+  buyUrl?: string;        
   featured?: boolean;
 }
 
@@ -17,7 +18,7 @@ export const products: Product[] = [
     name: "HELLO - IN ERROR 4X4",
     description:
       "Highly detailed articulated mechanical dragon. Perfect for display or as a unique gift. Fully printed and assembled.",
-    price: 5,
+    price: 2.00,
     type: "physical",
     category: "Creatures",
     images: [
@@ -25,7 +26,7 @@ export const products: Product[] = [
       "/products/Fumiko.png",
       "/products/rumunia2026.jpg",
     ],
-    featured: true,
+    buyUrl:"https://my3dshop.lemonsqueezy.com/checkout/buy/c95c3569-d741-442a-b33c-faee077e269f: true,
   },
   {
     id: "cyber-skull",

@@ -58,7 +58,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.description}
         </p>
         <div className="flex items-center justify-between">
-          <span className="text-lg font-bold text-white">${product.price}</span>
+          <span className="text-lg font-bold text-white">{product.price} zł</span>
           <span className="rounded-lg bg-zinc-800 px-3 py-1.5 text-xs font-medium text-zinc-300 group-hover:bg-violet-600 group-hover:text-white transition-colors">
             View →
           </span>

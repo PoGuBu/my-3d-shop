@@ -108,8 +108,8 @@ export default function ProductPage({ params }: ProductPageProps) {
 
           <div className="mb-8">
             <span className="text-3xl font-bold text-white">
-              ${product.price}
-            </span>
+  {product.price} zł
+</span>
             {product.type === "digital" && (
               <span className="ml-3 text-sm text-zinc-500">Instant download</span>
             )}
@@ -118,7 +118,23 @@ export default function ProductPage({ params }: ProductPageProps) {
             )}
           </div>
 
-          {/* Buy button */}
+          {product.buyUrl ? (
+  <a
+    href={product.buyUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mb-4 inline-block w-full rounded-xl bg-violet-600 px-6 py-4 text-center text-base font-semibold text-white shadow-lg shadow-violet-600/25 transition hover:bg-violet-500 hover:shadow-violet-500/40 sm:w-auto sm:px-10"
+  >
+    {product.type === "digital" ? "Buy & Download" : "Buy Print"}
+  </a>
+) : (
+  <button
+    disabled
+    className="mb-4 w-full rounded-xl bg-zinc-700 px-6 py-4 text-base font-semibold text-zinc-400 cursor-not-allowed sm:w-auto sm:px-10"
+  >
+    Coming soon
+  </button>
+)}
           <button className="mb-4 w-full rounded-xl bg-violet-600 px-6 py-4 text-base font-semibold text-white shadow-lg shadow-violet-600/25 transition hover:bg-violet-500 hover:shadow-violet-500/40 sm:w-auto sm:px-10">
             {product.type === "digital" ? "Buy & Download" : "Buy Print"}
           </button>
