@@ -46,13 +46,14 @@ export const products: Product[] = [
     id: "elektryk_zawieszka",
     name: "Zawieszka na 75-lecie ZESL2",
     description:
-      "Pękna zawieszka zaprojektowana z okazji na 75-lecie ZESL2 w KRK.",
+      "Piękna zawieszka zaprojektowana z okazji na 75-lecie ZESL2 w KRK.",
     price: 15,
     type: "physical",
     category: "custom made",
     images: [
-      "/products/vase-1.jpg",
+      "Screenshot 2026-10-28 195517.png",
     ],
+    buyUrl:"https://my3dshop.lemonsqueezy.com/checkout/buy/1f33e6b7-5887-497b-b8ff-0d50ad3da077",
     featured: true,
   },
   {
