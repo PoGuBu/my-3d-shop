@@ -33,7 +33,7 @@ export const products: Product[] = [
     name: "Fox - 1",
     description:
       "Awesome remote controled pusher plane.",
-    price: 12,
+    price: 200,
     type: "physical",
     category: "Toys",
     images: [
@@ -43,17 +43,15 @@ export const products: Product[] = [
     featured: true,
   },
   {
-    id: "modular-vase",
-    name: "Modular Geometric Vase",
+    id: "elektryk_zawieszka",
+    name: "Zawieszka na 75-lecie ZESL2",
     description:
-      "Beautiful modular vase system. Print multiple parts and mix them. Physical version comes fully printed.",
-    price: 45,
+      "Pękna zawieszka zaprojektowana z okazji na 75-lecie ZESL2 w KRK.",
+    price: 15,
     type: "physical",
-    category: "Home",
+    category: "custom made",
     images: [
       "/products/vase-1.jpg",
-      "/products/vase-2.jpg",
-      "/products/vase-3.jpg",
     ],
     featured: true,
   },
