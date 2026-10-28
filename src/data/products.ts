@@ -19,11 +19,11 @@ export const products: Product[] = [
     description:
       "Tematyczna zawieszka dla Error 4x4 na event HELLO-IN",
     price: 2.00,
-    type: "physical",
-    category: "Creatures",
+    type: "digital",
+    category: "custom made",
     images: [
       "/products/helloin.png",
-      "hello in zdjęcie.jpg",
+      "helloinzdjęcie.jpg",
     ],
     buyUrl:"https://my3dshop.lemonsqueezy.com/checkout/buy/c95c3569-d741-442a-b33c-faee077e269f",
       featured: true,
