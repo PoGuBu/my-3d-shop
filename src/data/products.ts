@@ -17,7 +17,7 @@ export const products: Product[] = [
     id: "helloin",
     name: "HELLO - IN ERROR 4X4",
     description:
-      "Highly detailed articulated mechanical dragon. Perfect for display or as a unique gift. Fully printed and assembled.",
+      "Tematyczna zawieszka dla Error 4x4 na event HELLO-IN",
     price: 2.00,
     type: "physical",
     category: "Creatures",
