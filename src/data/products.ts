@@ -29,13 +29,13 @@ export const products: Product[] = [
       featured: true,
   },
   {
-    id: "cyber-skull",
-    name: "Cyberpunk Skull",
+    id: "fox1",
+    name: "Fox - 1",
     description:
-      "STL file of a cyberpunk-style skull with intricate circuit patterns. Ready for printing at any scale.",
+      "Awesome remote controled pusher plane.",
     price: 12,
-    type: "digital",
-    category: "Decor",
+    type: "physical",
+    category: "Toys",
     images: [
       "/products/skull-1.jpg",
       "/products/skull-2.jpg",
