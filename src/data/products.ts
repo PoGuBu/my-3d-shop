@@ -26,7 +26,7 @@ export const products: Product[] = [
       "/products/Fumiko.png",
       "/products/rumunia2026.jpg",
     ],
-    buyUrl:"https://my3dshop.lemonsqueezy.com/checkout/buy/c95c3569-d741-442a-b33c-faee077e269f"
+    buyUrl:"https://my3dshop.lemonsqueezy.com/checkout/buy/c95c3569-d741-442a-b33c-faee077e269f",
       featured: true,
   },
   {
