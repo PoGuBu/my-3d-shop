@@ -38,7 +38,6 @@ export const products: Product[] = [
     category: "Toys",
     images: [
       "864178929_1762980838264818_7220877615643761266_n.jpg",
-      "/products/skull-2.jpg",
     ],
     featured: true,
   },
