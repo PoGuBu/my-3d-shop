@@ -23,7 +23,7 @@ export const products: Product[] = [
     category: "custom made",
     images: [
       "/products/helloin.png",
-      "helloinzdjęcie.jpg",
+      "hello2.jpg",
     ],
     buyUrl:"https://my3dshop.lemonsqueezy.com/checkout/buy/c95c3569-d741-442a-b33c-faee077e269f",
       featured: true,
